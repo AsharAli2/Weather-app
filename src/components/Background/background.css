@@ -1,0 +1,35 @@
+.cloud{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url("../../../public/sun.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.c1{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    animation: movingcloud 10s;
+    animation-iteration-count: infinite;
+}
+.c2{
+    animation-delay: 5s;
+}
+@keyframes movingcloud {
+    0%{
+        transform: scale(1,1);
+        opacity: 0;
+    }
+    20%{
+    
+        opacity: 0.7;
+    }
+    100%{
+        transform: scale(5,5);
+        opacity: 0;
+    }
+    
+}
