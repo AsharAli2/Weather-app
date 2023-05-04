@@ -1,3 +1,6 @@
+# Weather app
+<p>Made a weather app using rapid api and open weather api by using React</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
